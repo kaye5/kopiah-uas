@@ -1,0 +1,56 @@
+.con-ctc h1,.con-ctc h4 {
+    text-align: center;
+    font-weight: bold;
+}
+.con-ctc  h4{
+    margin-bottom: 1rem;
+}
+form.contactus {
+    margin: auto;
+    margin-top: 5rem;
+    width:50%;
+}
+.contactus h4{
+    text-align: center;
+    font-weight: bold;
+}
+div.contactus{
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contact-in {
+    margin: 1rem 0;
+}
+.contact-in input {
+    border: 0;
+    border-bottom: 0.5px solid black;
+}
+.ctc-btn {
+    background: var(--dark-green);
+    color: var(--light);
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+}
+select.form-control{
+    font-weight: bold;
+    border: 0 ; 
+    border-bottom: 0.5px solid #000000;
+    background-color: transparent;
+}
+a.btn.btnfull{
+    background-color: var(--red);
+    color: var(--light);
+}
+a.btn.btnfull:hover{
+    background-color: var(--dark-green);
+}
+.card img:hover {
+    opacity: 0.8;
+}
+@media(max-width : 768px){
+    form.contactus {
+        width: 100%;
+    }
+}

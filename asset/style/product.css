@@ -1,0 +1,32 @@
+.product-cat h3 {
+    font-weight: bold;
+}
+.item {
+    text-align: center;
+    cursor: pointer;
+    margin: 1.5rem 0;
+}
+.item:hover {
+    opacity: 0.8
+}
+.p-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.item-title{
+    text-align: left;
+    align-self: center;
+    font-size: 1rem;
+}
+.item-title h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.item-title a{
+    font-size: 1rem;
+}
+.collapse ul {
+    font-size: 1rem;
+}

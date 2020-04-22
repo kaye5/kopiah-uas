@@ -1,0 +1,50 @@
+.about-main h1,.about-why h1{
+    font-family: 'Montserrat-Black';
+    margin-bottom: 1rem;
+    color: var(--red);
+}
+.about-main p,.about-why p{
+    font-weight: bold;
+}
+.amt {
+    align-self: center;
+}
+.about-why {
+    margin-top: 5rem;
+}
+.about-why h1{
+    margin-bottom: 1.5rem
+}
+.about-why h2,.about-why h3,.about-why img {
+    margin-bottom: 1rem;
+}
+
+.why-re div h4{
+    color: var(--dark-green);
+    font-weight: bold;
+}
+.news-item {
+    margin: 3rem 0;
+}
+.news-item h3 {
+    color: var(--dark-green);
+    margin: 0;
+}
+.news-item h2 {
+    font-family: 'Montserrat-Black';
+    color: black;
+}
+.news-item h2:hover {
+    color: var(--light-green);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.seemore {
+    margin: 2rem;
+    text-align: center;
+}
+.seemore:hover {
+    color: var(--dark-green);
+}

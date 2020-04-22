@@ -1,0 +1,116 @@
+.fade-in-tl {
+    -webkit-animation: fade-in-tl 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-tl 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.focus-in-contract {
+    -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.fade-in-left {
+    animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.fade-in-right {
+    animation: fade-in-right 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.fade-in-fwd {
+    animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in-fwd {
+    0% {
+        transform: translateZ(-80px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-right {
+    0% {
+        transform: translateX(10rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-left {
+    0% {
+        transform: translateX(-5rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@-webkit-keyframes fade-in-tl {
+    0% {
+        -webkit-transform: translateX(-50px) translateY(-50px);
+        transform: translateX(-50px) translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-tl {
+    0% {
+        -webkit-transform: translateX(-50px) translateY(-50px);
+        transform: translateX(-50px) translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
