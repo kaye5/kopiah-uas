@@ -43,11 +43,11 @@ body {
     border: 5px solid #808F87;
     box-sizing: border-box;
     top: 10%;
-    margin-left: 5rem;
+    left: 25%;
     position: relative;
     z-index: 1;
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 550px;
 }
 
 .profile {
@@ -154,6 +154,7 @@ body {
     }
 
     .my-img {
+        left: 0;
         margin: auto;
     }
 
@@ -167,17 +168,18 @@ body {
         list-style-type: none;
     }
 
+}
 
-    @media(max-width : 480px) {
-        .my-img img {
-            margin: 0;
-        }
-
-        .my-img {
-            width: 100%;
-        }
-
-        .name h1 {
-            font-size: 3rem;
-        }
+@media(max-width : 480px) {
+    .my-img img {
+        margin: 0;
     }
+
+    .my-img {
+        width: 100%;
+    }
+
+    .name h1 {
+        font-size: 3rem;
+    }
+}

@@ -40,6 +40,7 @@ header.kopiah-header,img.header-img{
 }
 div.kopiah-header {
     height: 550px;
+    width: 100%;
     background-color: var(--dark-green);
     position: absolute;
     
@@ -177,7 +178,7 @@ div.newslatter-overlay{
     border-radius: 10px;
 }
 div.medsos{
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .medsos a {
     margin-right: 2rem;

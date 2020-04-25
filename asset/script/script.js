@@ -14,7 +14,6 @@ async function navCat() {
 }
 navCat();
 
-
 $('.ig-list-pic').ready(() => {
     for (var i = 1; i <= 8; i++) {
         $('.ig-list-pic').append(`
@@ -153,3 +152,4 @@ $(window).scroll(function () {
         }
     });
 }).scroll();
+
