@@ -145,6 +145,11 @@ $('.product-list').ready(async function () {
 
 $(window).scroll(function () {
     var windowBottom = $(this).scrollTop() + window.innerHeight;
+    if($(this).scrollTop() >= 120 ){
+        $('button#scrollTop').css('display','block')
+    }
+    else 
+        $('button#scrollTop').css('display','none')
     $("div#nf").each(function () {
         var objectBottom = $(this).offset().top
         if (objectBottom < windowBottom) {
@@ -152,4 +157,7 @@ $(window).scroll(function () {
         }
     });
 }).scroll();
-
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

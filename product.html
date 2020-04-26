@@ -13,6 +13,8 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="scrollTop" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+    
     <header class="kopiah-header">
         <div class="kopiah-header">
             <img src="asset/img/home%20(1).jpg" class="header-img">
@@ -34,11 +36,18 @@
                             Menu
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navCat">
-                            <a class="dropdown-item" href="product.html">Other</a>
+                            
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout" id="navCat">
+                            <a class="dropdown-item" href="about.html">About us</a>
+                            <a class="dropdown-item" href="news.html">News</a>
+                            <a class="dropdown-item" href="contact.html">Contact us</a>
+                        </div>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="promotion.html">Promotion</a>
